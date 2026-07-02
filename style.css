@@ -1,77 +1,81 @@
-
 body {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    color:#515076;
-    background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color:#515076;
 }
 
 .title {
-    font-size: 70px;
-    font-weight: 400;
-    line-height: 78px;
-    text-align: center;
-    margin: 0;
-    color:#515076
+  font-size: 70px;
+  font-weight: 400px;
+  line-height: 78px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color:#515076
 }
 
-.list-products {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.products-list{
+  list-style: 0;
+  padding: 0;
+  margin:0;
+  background-color: #F7F7FA;
+  width: 340px;
 }
 
-.list-products > li > h2 {
-    margin-top: 5px;
+.list {
+  padding-bottom: 25px;
 }
 
-.list-products li h2 + p {
-    margin-top: 5px;
-}
-
-.product-ingredients {
-    margin-top: 15px;
-}
-
-.product-ingredients ul {
-    padding-left: 15px;
-    margin-left: 0;
-    list-style-position: outside;
-}
-
-.product-ingredients ul li::marker {
-    font-size: 1.5em;
-}
-
-.list-products > li {
-    border: none;
-    padding: 25px;
-    list-style: none;
-    width: 340px;
-    height: 573px;
-    background-color: #F7F7FA;
-}
-
-.list-products img {
-    border: none;
-    padding: 25px;
-    background-color: #ffffff;
+.images {
+  padding: 25px;
 }
 
 .skin-type {
-    font-size: 12px;
-    line-height: 24px;
-    display: block;
-    color:#A5A3B9;
-    padding-top: 30px;
+  color:#A5A3B9;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 0px;
+  padding: 25px;
 }
 
-.product-price {
-    font-size: 20px;
-    line-height: 24px;
-    display: flex;
-    justify-content:space-between;
-    padding-top: 25px;
+.product-name {
+  color:#515076;
+  line-height: 27px;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0px;
+  padding: 25px;
+}
 
+.description {
+  color:#515076;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 25px;
+}
+
+.compound{
+  margin:0;
+  padding: 25px;
+  padding-bottom: 10px;
+}
+
+.compound-list {
+  padding-bottom: 25px;
+}
+
+.price {
+  color:#515076;
+  line-height: 24px;
+  font-size: 20px;
+  padding: 25px;
+  font-weight: 700;
+}
+
+.price-value {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 25px;
 }
