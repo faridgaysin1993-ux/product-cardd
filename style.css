@@ -16,19 +16,35 @@ body {
 }
 
 .products-list{
-  list-style: 0;
+  list-style: none;
   padding: 0;
   margin:0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
   background-color: #F7F7FA;
-  width: 340px;
-}
+ }
 
 .list {
+  background-color: #F7F7FA;
+  width: 340px;
+  display: flex;         
+  flex-direction: column;
   padding-bottom: 25px;
 }
 
 .images {
-  padding: 25px;
+  padding: 25px 25px 0 25px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.images img {
+  max-width: 100%;
+  height: auto;
 }
 
 .skin-type {
